@@ -7,6 +7,7 @@ var isDefault;
 
 /**
  * Create an alert to display the error message
+ * h
  * @param {Object} message - Error message to display
  */
 function createErrorNotification(message) {
