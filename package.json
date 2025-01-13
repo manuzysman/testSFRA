@@ -70,8 +70,8 @@
     "css-loader": "^1.0.1",
     "debug": "^4.1.1",
     "deepmerge": "^3.3.0",
-    "eslint": "3.19.0",
-    "eslint-config-airbnb-base": "5.0.3",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^5.0.3",
     "eslint-plugin-import": "^1.16.0",
     "eslint-plugin-sitegenesis": "~1.0.0",
     "globalize": "^1.4.2",
@@ -100,11 +100,11 @@
     "stylelint-scss": "2.5.0",
     "url": "^0.11.0",
     "wdio-sauce-service": "0.4.14",
-    "webdriverio": "5.14.5",
+    "webdriverio": "^5.14.5",
     "xml2js": "^0.4.22"
   },
   "dependencies": {
-    "bootstrap": "^4.6.1",
+    "bootstrap": "4.6.1",
     "cleave.js": "^1.5.3",
     "flag-icon-css": "^2.9.0",
     "font-awesome": "^4.7.0",
@@ -115,6 +115,9 @@
     "ie >= 10"
   ],
   "packageName": "app_storefront_base",
+  "paths": {
+    "base": "./cartridges/app_storefront_base/"
+  },
   "babel": {
     "presets": [
       "env"
