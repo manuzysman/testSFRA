@@ -17,7 +17,7 @@
             <preference preference-id="IPAddressWhitelist"/>
             <preference preference-id="InstanceTimezone">US/Eastern</preference>
             <preference preference-id="OverridingPriceBooksEnabled">false</preference>
-            <preference preference-id="QuotaNotificationEnableEmail">false</preference>
+            <preference preference-id="QuotaNotificationEnableEmail">true</preference>
             <preference preference-id="SSOSupportState">sso_only</preference>
             <preference preference-id="SystemUseNotificationEnabled">false</preference>
             <preference preference-id="SystemUseNotificationMandatory">false</preference>
