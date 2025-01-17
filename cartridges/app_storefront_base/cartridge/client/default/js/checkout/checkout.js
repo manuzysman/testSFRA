@@ -11,7 +11,7 @@ var scrollAnimate = require('../components/scrollAnimate');
 
 /**
  * Create the jQuery Checkout Plugin.
- *
+ * Conflict
  * This jQuery plugin will be registered on the dom element in checkout.isml with the
  * id of "checkout-main".
  *
