@@ -1,7 +1,7 @@
 <preferences xmlns="http://www.demandware.com/xml/impex/preferences/2007-03-31">
     <standard-preferences>
         <all-instances>
-            <preference preference-id="AccountNumberRetentionDays">5</preference>
+            <preference preference-id="AccountNumberRetentionDays">0</preference>
             <preference preference-id="AddProductToBasketBehavior">IncrementQuantities</preference>
             <preference preference-id="CouponGeneratorCodeLength">15</preference>
             <preference preference-id="CouponGeneratorIncludeDashes">true</preference>
