@@ -4,7 +4,8 @@ var base = require('../product/base');
 var focusHelper = require('../components/focus');
 
 /**
- * appends params to a url
+ * appends params to a url 
+ * dsdsds
  * @param {string} url - Original url
  * @param {Object} params - Parameters to append
  * @returns {string} result url with appended parameters
