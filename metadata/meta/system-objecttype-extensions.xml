@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <metadata xmlns="http://www.demandware.com/xml/impex/metadata/2006-10-31">
     <type-extension type-id="Appeasement">
         <system-attribute-definitions>
@@ -187,6 +186,13 @@
             <attribute-definition attribute-id="lastModified"/>
         </system-attribute-definitions>
         <custom-attribute-definitions>
+            <attribute-definition attribute-id="copadoAttr">
+                <display-name xml:lang="x-default">Copado Attribute</display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
             <attribute-definition attribute-id="sessionAddressBook">
                 <display-name xml:lang="x-default">Session Address Book</display-name>
                 <type>text</type>
@@ -197,6 +203,7 @@
         <group-definitions>
             <attribute-group group-id="Status">
                 <display-name xml:lang="x-default">Status</display-name>
+                <attribute attribute-id="copadoAttr"/>
             </attribute-group>
         </group-definitions>
     </type-extension>
@@ -2788,7 +2795,7 @@
                         <value>0080</value>
                     </value-definition>
                     <value-definition>
-                        <display xml:lang="x-default">Bluetooth®</display>
+                        <display xml:lang="x-default">Bluetooth&#174;</display>
                         <value>0090</value>
                     </value-definition>
                     <value-definition>
