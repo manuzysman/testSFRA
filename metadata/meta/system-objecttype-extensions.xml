@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <metadata xmlns="http://www.demandware.com/xml/impex/metadata/2006-10-31">
     <type-extension type-id="Appeasement">
         <system-attribute-definitions>
@@ -2788,7 +2787,7 @@
                         <value>0080</value>
                     </value-definition>
                     <value-definition>
-                        <display xml:lang="x-default">Bluetooth®</display>
+                        <display xml:lang="x-default">Bluetooth&#174;</display>
                         <value>0090</value>
                     </value-definition>
                     <value-definition>
@@ -4763,6 +4762,13 @@
                 <externally-managed-flag>false</externally-managed-flag>
                 <default-value>false</default-value>
             </attribute-definition>
+            <attribute-definition attribute-id="enableCopado">
+                <display-name xml:lang="x-default">Enable Copado</display-name>
+                <type>boolean</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <default-value>true</default-value>
+            </attribute-definition>
             <attribute-definition attribute-id="enableInfiniteScroll">
                 <display-name xml:lang="x-default">Enable Infinite Scroll</display-name>
                 <description xml:lang="x-default">This Boolean toggles the option for infinite scrolling or pagination from within the search grid.</description>
@@ -5057,6 +5063,7 @@
             <attribute-group group-id="Copado">
                 <display-name xml:lang="x-default">Copado</display-name>
                 <attribute attribute-id="Copado"/>
+                <attribute attribute-id="enableCopado"/>
             </attribute-group>
         </group-definitions>
     </type-extension>
